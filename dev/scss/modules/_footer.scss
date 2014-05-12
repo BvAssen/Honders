@@ -1,0 +1,23 @@
+.Footer {
+	text-align: center;
+	// padding-left: 1em;	
+	// padding-right: 1em;
+
+
+
+	.widget {
+		@include span-columns(4);
+		@media screen and(max-width: 600px){
+			@include span-columns(12);
+		}
+	}
+
+	.widgettitle{
+		color:black;
+  		font-size: rem(20px);
+	}
+}
+ .Footer-text{
+	padding: 17px;
+ 	border-top: 1px solid $c-orange;
+ }

@@ -1,0 +1,45 @@
+// *************************************
+//
+// Header
+// -> Main site header
+//
+// *************************************
+
+// .Header {
+//   background-image: url("../img/rechtbank.jpg");
+//   background-size: cover;  
+//   background-color: red;
+// }
+
+.Header {
+  background-size: cover;
+  background-image: url("../img/rechtbank.jpg");
+  padding-top: 3rem;
+  padding-bottom: 2em;
+
+}
+
+
+// ----- Nav bar ----- //
+
+.Header-topbar {
+  @extend .u-gridRow;
+  height: 57px;
+  margin-bottom: 14rem;
+  // padding-bottom : $l-whiteSpace;
+  // padding-top    : $l-whiteSpace;
+  background: $c-white;
+  background-color: $c-white;
+}
+
+// ----- Carousel ----- //
+
+.Header-tagline {
+  @extend .u-gridRow;
+  // padding-bottom : ($l-whiteSpace * 4);
+  // padding-top    : ($l-whiteSpace * 4);
+  margin-bottom: 2rem;
+  background-color: rgba($c-orange, 0.6);
+  text-align: center;
+  letter-spacing: 3px;
+}

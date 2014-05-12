@@ -1,0 +1,94 @@
+// *************************************
+//
+// Navigation
+// -> Reusable navigation module
+//
+// *************************************
+
+.Navigation {
+  display: inline-block;
+}
+
+// -------------------------------------
+// Module specific variables
+// -------------------------------------
+
+// Module-variableName
+
+// -------------------------------------
+// Modifiers
+// -------------------------------------
+
+// -------------------------------------
+// States
+// -------------------------------------
+
+.Navigation-link.is-active {
+  text-decoration: none;
+
+
+  // color: white;
+  background: rgba($c-orange, 0.8);
+}
+
+.Navigation-link:hover {
+
+  text-decoration: none;
+  color: black;
+  text-decoration: none;-webkit-duration: .3s;
+  -moz-duration: .3s;
+  -o-duration: .3s;
+  transition-duration: .3s;
+
+   background: rgba($c-orange, 0.3);
+
+
+}
+
+a.Navigation-link{
+  text-decoration: none;
+  
+ 
+
+}
+
+// -------------------------------------
+// Context
+// -------------------------------------
+
+// .has-module
+
+// -------------------------------------
+// Submodules
+// -------------------------------------
+
+// ----- List item ----- //
+.Navigation-list{
+  font-size: 20px;
+  margin-top: 5px;
+  margin-left: 50px;
+  letter-spacing: 2px; 
+}
+
+.Navigation-listItem {
+  display: inline;
+  margin: 0;
+  &:first-of-type {
+    margin-left: 0;
+  }
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+// ----- Navigation link ----- //
+
+.Navigation-link {
+  @extend .Button;
+  @extend .Button--brand;
+  // text-transform: uppercase;
+}
+
+.Navigation-link--invertedBold {
+  // font-weight: bold;
+}

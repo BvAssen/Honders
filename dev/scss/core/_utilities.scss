@@ -29,6 +29,8 @@
   width: 100%;
 }
 
+
+
 // -------------------------------------
 // Grid
 // -------------------------------------
@@ -45,7 +47,7 @@
 
 .u-gridColumn3 {
   @include span-columns(3);
-    @media screen and (max-width: 980px){
+  @media screen and (max-width: 980px){
       @include span-columns(12);
     }
 }
@@ -57,7 +59,7 @@
     }
 }
 .u-gridColumn6 {
-  @include span-columns(6); 
+  @include span-columns(6);
   @media screen and (max-width: 980px){
       @include span-columns(12);
     }
@@ -73,11 +75,19 @@
     }
 }
 
-.u-gridColumn9 {
-  @include span-columns(9);
+.u-gridColumn8 {
+  @include span-columns(8);
+  @media screen and (max-width: 980px){
+      @include span-columns(12);
+    }
 }
 
-
+.u-gridColumn9 {
+  @include span-columns(9);
+  @media screen and (max-width: 980px){
+      @include span-columns(12);
+    }
+}
 
 // -------------------------------------
 // Text

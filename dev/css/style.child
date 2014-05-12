@@ -1,0 +1,12 @@
+/*
+Theme Name: Slate - Honders
+Theme URI: https://github.com/SuperBaas/Honders
+Description: A Clean Slate - Honders Child Theme
+Version: 1.0
+Author: Benno
+Author URI: http://www.lokaalgevonden.nl
+Tags: Slate
+Template: slate
+*/
+
+@import url('../slate/style.css');
