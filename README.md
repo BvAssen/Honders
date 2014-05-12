@@ -1,4 +1,4 @@
-Slate
+Slate Honders
 =====
 
 Slate is a framework for Wordpress child theme development.
