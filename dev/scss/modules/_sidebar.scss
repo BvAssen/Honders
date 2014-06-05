@@ -4,9 +4,11 @@
 	margin-left: 6.6rem;
 	// background-color: $c-brokenwhite;
 	height: 600px;
+	color: $c-grayblue;
 
 	@media screen and (max-width: 980px){
 		margin-top: 1em;
 		margin-left: 0;
+		margin-bottom: 12em;
 	}
 }

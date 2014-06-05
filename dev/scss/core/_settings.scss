@@ -12,6 +12,7 @@
 // Open Sans (normal, italic, bold, bold/italic)
 @include web-fonts(("Copperplate": ("400", "400 italic", "800", "800 italic")));
 @import url(http://fonts.googleapis.com/css?family=Istok+Web);
+@import url(http://fonts.googleapis.com/css?family=Play);
 
 // -------------------------------------
 // Variables
@@ -24,6 +25,7 @@ $c-blue  : #05258F;
 $c-brokenwhite : #EFEFEF;
 $c-white : #FFFFFF;
 $c-orange : #FDA90C;
+$c-grayblue : #426485;
 
 // ----- Layout ----- //
 $l-whiteSpace: 0.5rem;
@@ -36,7 +38,10 @@ $l-boxShadow      : 0 1px 2px rgba($c-black, 0.25);
 
 // ----- Text ----- //
 
+
 $t-fontFamily       : 'Istok Web', sans-serif, $helvetica;
-$t-headerFontFamily : 'Copperplate', $helvetica;
+$t-header 			: 'Copperplate', $helvetica;
+// $t-headerFontFamily : 'Copperplate', $helvetica;
+$t-headerFontFamily : 'Play', sans-serif;
 $t-fontSize         : 16px;
-$t-lineHeight       : 1.5;
+$t-lineHeight       : 1.5em;

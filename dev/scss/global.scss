@@ -68,6 +68,8 @@
 
 @import "modules/usp";
 
+@import "modules/sidebarmenu";
+
 @import "modules/table";
 
 // -------------------------------------
@@ -82,15 +84,22 @@
 }
 
 .Body-text{
-	margin-top: 0;
+	margin-top: 0; 
 	font-family: $t-fontFamily;
 	color: $c-blue;
 	letter-spacing:2px;
 	margin-bottom: 23px;
-	background-color: red;
+	// background-color: red;
 }
 
 div.Body--text{
 	background-color:red;
 }
 
+.Footer-inner > iframe:nth-child(5){
+	width: 23%;
+}
+
+.Text{
+	width: 43em;
+}

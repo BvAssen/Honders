@@ -1,0 +1,35 @@
+.Side-menu .Navigation-listItem{
+	display: block;
+	// margin-left: 12em;
+	// margin-top: 5em;
+	line-height: 3em;
+	// background: rgba($c-orange, 0.3);
+	// border-left: 1px solid $c-orange;
+	// text-align: right;
+	text-transform: uppercase;
+	text-decoration: none;
+	// color: black;
+}
+
+
+.Side-menu .Navigation-link{
+ 	width: 100%;
+
+ 	&:hover {
+	  text-decoration: none;
+	  // -webkit-duration: .3s;
+	  // -moz-duration: .3s;
+	  // -o-duration: .3s;
+	  // transition-duration: .3s;
+	  border-bottom: 3px solid $c-blue;
+	   // background-color: $c-blue;
+	}	
+}
+
+.Side-menu{
+	// border-bottom: 1px solid $c-orange;
+  	background: rgba($c-brokenwhite, 0.3);
+	margin-top: 2.5em;
+	margin-bottom: 12em;
+	font-family: $t-headerFontFamily;
+}

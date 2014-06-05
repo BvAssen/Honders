@@ -21,7 +21,7 @@
 
     <!-- Favicon, generate the favicons with: http://realfavicongenerator.net -->
     <!-- Apple touch icons should be accessible from the root of the site, and do not have to be linked here -->
-    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.ico">
 
     <!-- Include only one concatenated stylesheet here, minified -->
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/production.min.css">
@@ -38,11 +38,11 @@
     <header class="Header">
         <div class="Header-topbar">
             <div class="u-gridContainer">
-                    <div class="Logo">
+                    <a href="/home/"><div class="Logo">
                         <div class="Logo-text">
-                            <p>Advocatenkantoor Honders</p>
+                            <p class="Logo-title">Advocatenkantoor Honders</p>
                         </div> 
-                    </div>
+                    </div></a>
                     <?php include 'includes/navigation.php'; ?>
             </div>
         </div>

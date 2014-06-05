@@ -1,5 +1,6 @@
 .Footer {
 	text-align: center;
+	color: $c-grayblue;
 	// padding-left: 1em;	
 	// padding-right: 1em;
 
@@ -13,11 +14,14 @@
 	}
 
 	.widgettitle{
-		color:black;
-  		font-size: rem(20px);
+	color: $c-grayblue;
+  	font-size: rem(20px);
 	}
 }
  .Footer-text{
 	padding: 17px;
  	border-top: 1px solid $c-orange;
+ 	color: $c-grayblue;
+	// background-color: $c-grayblue;
+
  }

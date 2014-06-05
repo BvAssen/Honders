@@ -62,7 +62,7 @@
 .Logo-text{
   padding-top: 2px;
   // padding-bottom: 10px;
-  font-family: $t-headerFontFamily;
+  font-family: $t-header;
   padding-left: rem(20px);
   padding-right: rem(20px);
   background-color: $c-blue;
@@ -70,4 +70,8 @@
   display: inline-block;
 
 
+}
+
+.Logo-title{
+  color: $c-white;
 }

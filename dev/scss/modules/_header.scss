@@ -13,7 +13,7 @@
 
 .Header {
   background-size: cover;
-  background-image: url("../img/rechtbank.jpg");
+  background-image: url("../img/steps.png");
   padding-top: 3rem;
   padding-bottom: 2em;
 
@@ -39,7 +39,9 @@
   // padding-bottom : ($l-whiteSpace * 4);
   // padding-top    : ($l-whiteSpace * 4);
   margin-bottom: 2rem;
-  background-color: rgba($c-orange, 0.6);
+  // background-color: rgba($c-orange, 0.6);
+  background-color: rgba($c-grayblue, 0.6);
   text-align: center;
   letter-spacing: 3px;
+  color: $c-white;
 }
