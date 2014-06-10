@@ -26,22 +26,18 @@
 
 .Icon--alone {}
 
-// -------------------------------------
-// States
-// -------------------------------------
+.icon-list{
+	padding-left: 1em;
+}
 
-// .is-module-state
+.icon-phone {
+	list-style-image: url('/files/2014/06/phoneblue.png');
+}
 
-// -------------------------------------
-// Context
-// -------------------------------------
+.icon-fax {
+	list-style-image: url('/files/2014/06/faxblue.png');
+}
 
-// .has-module
-
-// -------------------------------------
-// Submodules
-// -------------------------------------
-
-// ----- Submodule ----- //
-
-// .Module-subModule
+.icon-mail {
+	list-style-image: url('/files/2014/06/emailblue.png');
+}

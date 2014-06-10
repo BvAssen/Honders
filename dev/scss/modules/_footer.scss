@@ -1,6 +1,6 @@
 .Footer {
 	text-align: center;
-	color: $c-grayblue;
+	color: $c-blue;
 	// padding-left: 1em;	
 	// padding-right: 1em;
 
@@ -9,19 +9,19 @@
 	.widget {
 		@include span-columns(4);
 		@media screen and(max-width: 600px){
-			@include span-columns(12);
+			@include span-columns(12); 
 		}
 	}
 
 	.widgettitle{
-	color: $c-grayblue;
+	color: $c-blue;
   	font-size: rem(20px);
 	}
 }
  .Footer-text{
 	padding: 17px;
  	border-top: 1px solid $c-orange;
- 	color: $c-grayblue;
+ 	color: $c-blue;
 	// background-color: $c-grayblue;
 
  }
