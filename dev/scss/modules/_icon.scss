@@ -27,9 +27,17 @@
 .Icon--alone {}
 
 .icon-list{
-	padding-left: 1em;
+	// margin-top: 3em;
 }
 
+#post-19 > div:nth-child(1) > ul:nth-child(1){
+	padding-left: 8em;
+
+}
+div.textwidget:nth-child(2) > ul:nth-child(1){
+	text-align: left;
+	padding-left: 10em;
+}
 .icon-phone {
 	list-style-image: url('/files/2014/06/phoneblue.png');
 }
@@ -41,3 +49,16 @@
 .icon-mail {
 	list-style-image: url('/files/2014/06/emailblue.png');
 }
+
+.icon-pinblue {
+	list-style-image: url('/files/2014/06/pinblue.png');
+
+}
+
+.icon-briefcase {
+	list-style-image: url('/files/2014/06/briefcaseblue.png');
+
+}
+
+
+

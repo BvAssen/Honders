@@ -16,6 +16,12 @@ Template Name: Home template
 			</div>
 		</article>
 	<?php endwhile; endif; ?>
+	<div class="Home-img">
+		<img src="/files/2014/06/kwaliteitslabel.jpg"></img>
+		<img src="/files/2014/06/Geschillencommissie-Advocatuur.jpg"></img>
+		<img src="/files/2014/06/High-Trust-2.jpg"></img>
+		
+	</div>
 </div>
 
 <div class="Sidebar">
@@ -23,8 +29,20 @@ Template Name: Home template
 		<a class="Button Button--home" href="#">Neem contact op</a>
 		<!-- <p class="Body-text"><strong>MR. J.M.F. Honders</strong></p> -->
 		<hr class="Line--sidebar"></hr>
+		<img src="/files/2014/06/Plieger-Version-3-copy.jpg"></img>
 
-		<ul class="Usp">
+
+		<p> MR. J.M.F. Honders</p>
+
+
+	
+	</div> 
+</div>
+
+</div>
+<?php get_footer(); ?>
+
+	<!-- <ul class="Usp">
 			<li class="Usp--head"><strong>MR. J.M.F. Honders</strong></li>
 			<li>Arbeids- en sociaal zekerheidsrecht</li>
 			<li>Contracten, schade, <br>en 
@@ -33,9 +51,4 @@ Template Name: Home template
 			<li>Personen- en familierecht</li>
 			<li>Strafrecht, tuchtrecht, 
 			vreemdelingenbewaring</li>
-		</ul>
-	</div> 
-</div>
-
-</div>
-<?php get_footer(); ?>
+		</ul> -->
